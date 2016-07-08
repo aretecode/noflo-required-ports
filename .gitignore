@@ -1,0 +1,25 @@
+# npm installed modules
+/node_modules/
+
+# browser generated files
+spec/*.js
+spec/browser/*.js
+
+# npm logs when there are problems
+npm-debug.log
+
+# mac files
+.DS_Store
+
+# private flowhub file with private user id
+flowhub.json
+
+# the preheated noflo map
+fbp.json
+.noflo.json
+
+# components created for the browser
+components/*/
+
+# results of the browser tests
+spec/*.xml
